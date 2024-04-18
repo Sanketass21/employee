@@ -75,7 +75,7 @@ function localStorageData(){
     storeData.forEach(data=>{
         let newRow=`
         <tr>
-        <td>${data.name}</td>
+        <td>${data.name}</td> 
         <td>${data.employeeID}</td>
         <td>${data.department}</td>
         <td>${data.experience}</td>
